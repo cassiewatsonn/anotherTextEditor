@@ -66,7 +66,7 @@ N/A
 
 ## Credits
 
-Thank you to my study partner's [Rebecca Lawrence](https://github.com/rkml14) and AskBCS Staff!
+Thank you to my study partner [Rebecca Lawrence](https://github.com/rkml14) and AskBCS Staff!
 
 ## Questions
 
