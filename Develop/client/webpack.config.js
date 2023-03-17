@@ -31,27 +31,31 @@ module.exports = () => {
             }),
       
             // Creates a manifest.json file.
-            new WebpackPwaManifest({
-              template: './manifest.json',
-              title: 'Manifest'
-            }),
             // new WebpackPwaManifest({
-
-            //   name: 'Text Editor',
-            //   short_name: 'Text',
-            //   description: 'just another text editior!',
-            //   background_color: '#225ca3',
-            //   theme_color: '#225ca3',
-            //   start_url: './',
-            //   publicPath: './',
-            //   icons: [
-            //     {
-            //       src: path.resolve('src/images/logo.png'),
-            //       sizes: [96, 128, 192, 256, 384, 512],
-            //       destination: path.join('assets', 'icons'),
-            //     },
-            //   ],
+            //   template: './manifest.json',
+            //   title: 'Manifest'
             // }),
+            new WebpackPwaManifest({
+              fingerprints: false,
+              inject: true, 
+              name: 'text editor',
+              short_name: 'text editor',
+              description: 'just another text editior!',
+              background_color: '#225ca3',
+              theme_color: '#225ca3',
+              start_url: './',
+              publicPath: './',
+              icons: [
+                {
+                  src: path.resolve('src/images/logo.png'),
+                  sizes: [96, 128, 192, 256, 384, 512],
+                  destination: path.join('assets', 'icons'),
+                    ios: true, 
+                    purpose: 'any maskable', 
+                    rename: 'icon-[width].[ext]'
+                },
+              ],
+            }),
       
     ],
 
