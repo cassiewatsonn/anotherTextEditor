@@ -17,27 +17,19 @@ This text editor allows users to be able to create notes or code snippets with o
 
 To install this text editor, navigate to the [Just Another Text Editor Link](https://) and click on the install button on the top left of the screen. See the picture below:
 
+## ![JATE](./client/src/images/jate1.png)
+
 ## Usage
 
-Here is a video displaying how to application works: [NoSQL-Social Video](https://drive.google.com/file/d/1G_LUFaymvAIrMsf0j5eyzPwAQQEwlqy0/view)
+Here are some images displaying how to application works:
 
-After you have successfully installed the package (if you have not yet installed, please refer to [Installation](#installation)), run 'npm start' in your terminal you will get a message like this:
+## ![Jate Usage](./client/src/images/usage1.png)
 
-## ![npm start](./assets/images/npmstart.png)
+## ![Jate Manifest](./client/src/images/manifest.png)
 
-This means the server is running! note: you will need the insomnia application to test the routes! Also, once you start the server, the Mongoose models are synced to the MongoDb database. (See Images Below).
+## ![Jate Social Worker](./client/src/images/sw.png)
 
-## ![Mongo 1](./assets/images/mongo1.png)
-
-## ![Mongo 2](./assets/images/mongo2.png)
-
-When I open API GET routes in Insomnia for users and thoughts, then the data for each of these routes is displayed in a formatted JSON. (See Below Images).
-
-## ![User Get](./assets/images/userget.png)
-
-## ![Thought Get](./assets/images/thoughtget.png)
-
-When I test API POST, PUT, and DELETE routes in Insomnia, then I am able to successfully create, update, and delete users and thoughts in my database. When I test API POST and DELETE routes in Insomnia, then I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list. Please refer to [NoSQL-Social Video](https://drive.google.com/file/d/1G_LUFaymvAIrMsf0j5eyzPwAQQEwlqy0/view) to see full walk-through.
+## ![Jate IndexedDB](./client/src/images/indexedDB.png)
 
 ## License Description
 
@@ -74,7 +66,7 @@ N/A
 
 ## Credits
 
-Thank you to my study partner's [Rebecca Lawrence](https://github.com/rkml14), AskBCS Staff and my tutors Eric Sayer and Jehyun Jung! Also, huge thank you to [Connor Savoy](https://github.com/Connor812) for helping me with last minute errors!
+Thank you to my study partner's [Rebecca Lawrence](https://github.com/rkml14) and AskBCS Staff!
 
 ## Questions
 
