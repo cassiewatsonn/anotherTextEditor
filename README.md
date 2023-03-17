@@ -15,7 +15,7 @@ This text editor allows users to be able to create notes or code snippets with o
 
 ## Installation
 
-To install this package, you will gather the files from the [NoSQL-Social GitHub Respoitory by Cassandra Watson](https://github.com/cassiewatsonn/NoSQL-Social). Once you have all of the files, navigate to your terminal and input 'npm install'. This will install all the packages needed from the package.json file.
+To install this text editor, navigate to the [Just Another Text Editor Link](https://) and click on the install button on the top left of the screen. See the picture below:
 
 ## Usage
 
